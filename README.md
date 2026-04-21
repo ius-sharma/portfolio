@@ -1,114 +1,39 @@
-# Ayush Sharma Portfolio
+# Ayush Sharma - Portfolio
 
-A modern personal portfolio built with Next.js App Router, focused on clean UI, project case studies, and direct contact flow.
+Welcome to my personal portfolio. I'm an aspiring full stack developer passionate about building AI-powered web applications with the MERN stack.
 
-## Highlights
+## 🌐 Live Portfolio
 
-- Responsive portfolio homepage with sections for About, Skills, Projects, Education, and Contact
-- Dedicated project detail pages for:
-	- AI Resume Analyzer
-	- AI Code Reviewer
-- Contact form with backend API integration using Nodemailer
-- Basic anti-spam controls (honeypot + lock window)
-- SEO improvements:
-	- Page-wise metadata
-	- Open Graph image for social preview
-	- robots.txt and sitemap.xml routes
-- Black + yellow visual theme with consistent background styling
+Visit: [your-domain.com](#) (Deploy on Vercel/Netlify and update link)
 
-## Tech Stack
+## 📋 What's Inside
 
-- Next.js 16 (App Router)
-- React 19
+- **About**: Background and professional overview
+- **Skills**: MERN stack, AI integrations, and modern web technologies
+- **Projects**: 
+  - AI Resume Analyzer
+  - AI Code Reviewer
+- **Education**: B.Tech in Computer Engineering at Marwadi University
+- **Contact Form**: Reach out directly through the site
+
+## 🛠 Built With
+
+- Next.js 16 (React 19)
 - TypeScript
-- Tailwind CSS 4
-- Nodemailer
+- Tailwind CSS
+- Nodemailer (contact backend)
 
-## Project Structure
+## 📧 Get in Touch
 
-app/
-- layout.tsx (global metadata + layout)
-- page.tsx (homepage)
-- contact/
-	- page.tsx
-	- contact-form.tsx
-- api/contact/route.ts (contact form backend)
-- projects/
-	- ai-resume-analyzer/page.tsx
-	- ai-code-reviewer/page.tsx
-- opengraph-image.tsx (social share image)
-- sitemap.ts
-- robots.ts
+- **Email**: sharmaeditzayush@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/ayush-sharma-833163320/
+- **GitHub**: https://github.com/ius-sharma
+- **LeetCode**: https://leetcode.com/u/iussharma/
 
-project-content/
-- Markdown content support for project pages
+## 📱 Features
 
-## Local Setup
-
-1. Install dependencies
-
-npm install
-
-2. Create local environment file
-
-Copy .env.example to .env.local and fill your own values.
-
-3. Run development server
-
-npm run dev
-
-4. Open in browser
-
-http://localhost:3000
-
-## Environment Variables
-
-Set these in .env.local:
-
-- SMTP_HOST (example: smtp.gmail.com)
-- SMTP_PORT (example: 587)
-- SMTP_SECURE (true for 465, false for 587)
-- SMTP_USER (sender mailbox)
-- SMTP_PASS (email app password)
-- CONTACT_RECEIVER_EMAIL (inbox where messages should arrive)
-- NEXT_PUBLIC_SITE_URL (deployed public URL, used for SEO canonical/OG/sitemap)
-
-Important:
-- Use app password for Gmail SMTP.
-- Never commit real secrets to Git.
-
-## Available Scripts
-
-- npm run dev: start local development server
-- npm run build: create production build
-- npm run start: run production server
-- npm run lint: run ESLint
-
-## SEO Notes
-
-This portfolio includes:
-
-- Route-based metadata for homepage, contact, and project pages
-- Open Graph preview image at /opengraph-image
-- robots.txt generated via app/robots.ts
-- sitemap.xml generated via app/sitemap.ts
-
-For best SEO output, set NEXT_PUBLIC_SITE_URL in production.
-
-## Deployment
-
-Recommended: Vercel
-
-Before deploy, verify:
-
-1. Environment variables are configured
-2. Build passes locally
-
-npm run lint
-npm run build
-
-## Contact
-
-- Email: sharmaeditzayush@gmail.com
-- LinkedIn: https://www.linkedin.com/in/ayush-sharma-833163320/
-- GitHub: https://github.com/ius-sharma
+- Fully responsive design
+- Dark mode with yellow accent theme
+- Fast & optimized (Next.js)
+- SEO ready with Open Graph support
+- Direct contact form with anti-spam protection
