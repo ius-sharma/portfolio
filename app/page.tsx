@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Full Stack Developer Portfolio",
+  title: "Ayush Sharma",
   description:
     "Discover Ayush Sharma's portfolio with MERN stack and AI-powered projects, skills, education, and collaboration opportunities.",
   alternates: {
