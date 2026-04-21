@@ -105,7 +105,7 @@ export default function Home() {
               </a>
               <a
                 className="rounded-full border border-[#facc15]/60 px-6 py-3 text-sm font-semibold text-[#facc15] transition hover:bg-[#facc15] hover:text-[#000000]"
-                href="/RESUME_V1.pdf"
+                href="/RESUME_V2.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
