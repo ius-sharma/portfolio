@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: {
-    default: "Ayush Sharma | Full Stack Developer",
+    default: "Ayush Sharma",
     template: "%s | Ayush Sharma",
   },
   description:
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     url: "/",
-    title: "Ayush Sharma | Full Stack Developer",
+    title: "Ayush Sharma",
     description:
       "Explore Ayush Sharma's portfolio featuring MERN and AI-integrated web applications, projects, and contact details.",
     siteName,
