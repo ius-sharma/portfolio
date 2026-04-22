@@ -4,7 +4,7 @@ Welcome to my personal portfolio. I'm an aspiring full-stack developer passionat
 
 ## 🌐 Live Portfolio
 
-Visit: https://ocnayush.vercel.app/ (#) (Deploy on Vercel/Netlify and update link)
+Visit: https://ocnayush.vercel.app/
 
 ## 📋 What's Inside
 
