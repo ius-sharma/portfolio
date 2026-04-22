@@ -1,10 +1,10 @@
 # Ayush Sharma - Portfolio
 
-Welcome to my personal portfolio. I'm an aspiring full stack developer passionate about building AI-powered web applications with the MERN stack.
+Welcome to my personal portfolio. I'm an aspiring full-stack developer passionate about building AI-powered web applications with the MERN stack.
 
 ## 🌐 Live Portfolio
 
-Visit: [your-domain.com](#) (Deploy on Vercel/Netlify and update link)
+Visit: https://ocnayush.vercel.app/ (#) (Deploy on Vercel/Netlify and update link)
 
 ## 📋 What's Inside
 
