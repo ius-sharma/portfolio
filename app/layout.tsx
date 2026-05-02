@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist_Mono, Manrope, Syne } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import { siteName, siteUrl } from "./seo-config";
 import "./globals.css";
 
@@ -73,7 +74,10 @@ export default function RootLayout({
       lang="en"
       className={`${manrope.variable} ${syne.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

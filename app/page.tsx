@@ -28,6 +28,17 @@ export default function Home() {
 
   const projects = [
     {
+      slug: "boringtools",
+      title: "BoringTools",
+      summary:
+        "A 100-day collection of simple micro-tools for everyday productivity, including text cleanup, JSON formatting, word counts, generators, converters, and utility workflows.",
+      stack: "Next.js, Tailwind CSS, Vercel",
+      links: {
+        live: "https://boring-tools-nine.vercel.app/",
+        code: null,
+      },
+    },
+    {
       slug: "ai-resume-analyzer",
       title: "AI Resume Analyzer",
       summary:
@@ -187,14 +198,16 @@ export default function Home() {
                       Live Link
                     </a>
                   )}
-                  <a
-                    className="text-[#facc15] hover:underline"
-                    href={project.links.code}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    GitHub
-                  </a>
+                  {project.links.code && (
+                    <a
+                      className="text-[#facc15] hover:underline"
+                      href={project.links.code}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      GitHub
+                    </a>
+                  )}
                 </div>
               </article>
             ))}
