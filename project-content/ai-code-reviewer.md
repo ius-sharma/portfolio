@@ -1,3 +1,5 @@
+> **Source status (2026-09-30): user-provided project documentation.** The repository is linked from the public GitHub profile. Its current contents and deployment were not revalidated in this phase. Specific model names below are historical documentation, not a verified current configuration.
+
 # AI Code Reviewer
 
 > An AI-powered developer tool that analyzes source code and provides suggestions, explanations, quality scores, and improved code fixes — powered by an open-source LLM via Groq.

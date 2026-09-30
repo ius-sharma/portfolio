@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { getProject } from "@/lib/content/projects";
+
+const project = getProject("ai-resume-analyzer");
 
 export const metadata: Metadata = {
   title: "AI Resume Analyzer Project",
@@ -35,7 +38,7 @@ export default function AiResumeAnalyzerPage() {
         <div className="mt-7 flex flex-wrap gap-3">
           <a
             className="rounded-full bg-[#facc15] px-5 py-2 text-sm font-semibold text-[#000000]"
-            href="https://github.com/ius-sharma/ai-resume-analyzer"
+            href={project.links.code!}
             target="_blank"
             rel="noreferrer"
           >
@@ -43,7 +46,7 @@ export default function AiResumeAnalyzerPage() {
           </a>
           <a
             className="rounded-full border border-white/30 px-5 py-2 text-sm font-semibold"
-            href="https://ai-resume-analyzer-orcin-rho.vercel.app/"
+            href={project.links.live!}
             target="_blank"
             rel="noreferrer"
           >
@@ -117,7 +120,7 @@ export default function AiResumeAnalyzerPage() {
         <div className="grid gap-5 md:grid-cols-2">
           <figure className="overflow-hidden rounded-2xl border border-white/20 bg-[#111111]/80">
             <Image
-              src="/projects/ai-resume-analyzer/cover+home.png"
+              src={project.screenshots[0].src}
               alt="AI Resume Analyzer home screen"
               width={1400}
               height={900}
@@ -126,7 +129,7 @@ export default function AiResumeAnalyzerPage() {
           </figure>
           <figure className="overflow-hidden rounded-2xl border border-white/20 bg-[#111111]/80">
             <Image
-              src="/projects/ai-resume-analyzer/upload.png"
+              src={project.screenshots[1].src}
               alt="AI Resume Analyzer upload flow"
               width={1400}
               height={900}
@@ -135,7 +138,7 @@ export default function AiResumeAnalyzerPage() {
           </figure>
           <figure className="overflow-hidden rounded-2xl border border-white/20 bg-[#111111]/80 md:col-span-2">
             <Image
-              src="/projects/ai-resume-analyzer/result.png"
+              src={project.screenshots[2].src}
               alt="AI Resume Analyzer output and result view"
               width={1600}
               height={900}

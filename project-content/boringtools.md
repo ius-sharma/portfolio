@@ -1,3 +1,9 @@
+> **Source status (2026-09-30): historical development log.** The Day 13 progress and "Coming Soon" sections below describe an earlier stage, not current availability. Resume V3 and the public repository now describe 101 tools built in 100 days. Current portfolio data lives in `lib/content/projects.ts`.
+>
+> Canonical product URL: https://boringtoolsai.com
+> Repository: https://github.com/ius-sharma/boring-tools
+> Core utilities use browser processing; selected AI tools call external APIs. Do not describe the entire product as zero-network or entirely local. Performance and usage figures need dated evidence before being presented as current measurements.
+
 # BoringTools 🚀
 
 **100 Days. 100 Boring Tools.**

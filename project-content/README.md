@@ -1,6 +1,8 @@
-# Project Content Folder
+# Project content notes
 
-Is folder me har project ka markdown file rakho.
+The website now reads project cards, URLs, status, stacks, and screenshot paths from `lib/content/projects.ts`. These Markdown files are supporting source notes, not an automatic CMS. Edit the shared data for a change to appear on the website.
+
+Source authority and open verification items are documented in `docs/phase-1-content-audit.md`. Preserve historical notes as history; do not promote old progress, model identifiers, or performance numbers to current facts without checking.
 
 ## File naming
 - ai-resume-analyzer.md

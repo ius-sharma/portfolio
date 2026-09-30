@@ -1,5 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { getProject } from "@/lib/content/projects";
+
+const project = getProject("ai-code-reviewer");
 
 export const metadata: Metadata = {
   title: "AI Code Reviewer Project",
@@ -31,7 +34,7 @@ export default function AiCodeReviewerPage() {
     "Monaco Editor",
   ];
 
-  const backendStack = ["Node.js", "Express", "Groq SDK (llama3-70b-8192)"];
+  const backendStack = ["Node.js", "Express", "Groq SDK"];
 
   return (
     <main className="mx-auto w-full max-w-5xl px-6 pb-20 pt-14 md:px-8">
@@ -52,7 +55,7 @@ export default function AiCodeReviewerPage() {
         <div className="mt-7 flex flex-wrap gap-3">
           <a
             className="rounded-full bg-[#facc15] px-5 py-2 text-sm font-semibold text-[#000000]"
-            href="https://github.com/ius-sharma/ai-code-reviewer"
+            href={project.links.code!}
             target="_blank"
             rel="noreferrer"
           >
