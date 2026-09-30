@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Keep workspace discovery inside this project when a parent has a lockfile.
+  turbopack: {
+    root: process.cwd(),
+  },
 };
 
 export default nextConfig;
