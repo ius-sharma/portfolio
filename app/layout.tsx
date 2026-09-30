@@ -22,26 +22,35 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: siteUrl,
   title: {
-    default: "Ayush Sharma",
+    default: "Ayush Sharma | Full Stack Developer & AI Builder",
     template: "%s | Ayush Sharma",
   },
   description:
-    "Portfolio of Ayush Sharma, aspiring full stack developer focused on MERN and AI-powered web applications.",
+    "Portfolio of Ayush Sharma: Full Stack Developer & AI Builder. Creator of BoringTools (101 web utilities). Skilled in Next.js, React, TypeScript, Python, FastAPI, Node.js, and WebAssembly.",
   applicationName: siteName,
   keywords: [
     "Ayush Sharma",
     "Full Stack Developer",
-    "MERN Developer",
-    "AI Projects",
-    "Portfolio",
+    "Software Engineer",
+    "SDE Intern",
+    "Next.js Developer",
+    "React Developer",
+    "TypeScript",
+    "FastAPI",
+    "Node.js",
+    "WebAssembly",
+    "Groq API",
+    "BoringTools",
+    "Marwadi University",
+    "AI Integration",
   ],
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: "/",
-    title: "Ayush Sharma",
+    title: "Ayush Sharma | Full Stack Developer & AI Builder",
     description:
-      "Explore Ayush Sharma's portfolio featuring MERN and AI-integrated web applications, projects, and contact details.",
+      "Explore Ayush Sharma's portfolio featuring BoringTools, AI systems, full stack web apps, case studies, and engineering projects.",
     siteName,
     images: [
       {
@@ -54,9 +63,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ayush Sharma | Full Stack Developer",
+    title: "Ayush Sharma | Full Stack Developer & AI Builder",
     description:
-      "Explore Ayush Sharma's portfolio featuring MERN and AI-integrated web applications.",
+      "Explore Ayush Sharma's portfolio featuring BoringTools, AI systems, full stack web apps, and case studies.",
     images: ["/opengraph-image"],
   },
   alternates: {

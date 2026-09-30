@@ -68,11 +68,17 @@ export default function ContactForm({ initialSubject }: ContactFormProps) {
       </Link>
 
       <section className="mt-5 rounded-3xl border border-white/20 bg-[#111111]/85 p-7 md:p-9">
-        <p className="text-xs uppercase tracking-[0.2em] text-[#facc15]">Contact Form</p>
+        <p className="text-xs uppercase tracking-[0.2em] text-[#facc15]">Get in Touch</p>
         <h1 className="mt-3 font-title text-4xl md:text-5xl">Send Me a Message</h1>
         <p className="mt-4 text-[#f5f5f5]">
-          Fill out this form and I will get back to you as soon as possible.
+          Fill out this form or reach out directly for Summer 2027 SDE internship opportunities, project collaborations, or developer tool discussions.
         </p>
+
+        <div className="mt-6 flex flex-wrap items-center gap-3 text-xs">
+          <span className="rounded-full border border-white/20 bg-black/40 px-3.5 py-1.5 text-[#f5f5f5]">📍 Bihar, India</span>
+          <a href="mailto:sharmaeditzayush@gmail.com" className="rounded-full border border-[#facc15]/40 bg-black/40 px-3.5 py-1.5 text-[#facc15] hover:underline">✉️ sharmaeditzayush@gmail.com</a>
+          <a href="tel:+916205882057" className="rounded-full border border-[#facc15]/40 bg-black/40 px-3.5 py-1.5 text-[#facc15] hover:underline">📞 +91 6205882057</a>
+        </div>
 
         {status === "success" ? (
           <div className="mt-8 space-y-4 rounded-2xl border border-[#facc15]/60 bg-black/50 p-6">

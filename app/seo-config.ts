@@ -1,4 +1,4 @@
-const fallbackUrl = "http://localhost:3000";
+const fallbackUrl = "https://boringtoolsai.com";
 
 function getSiteUrl() {
   const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
@@ -15,4 +15,4 @@ function getSiteUrl() {
 }
 
 export const siteUrl = getSiteUrl();
-export const siteName = "Ayush Sharma Portfolio";
+export const siteName = "Ayush Sharma | Portfolio";

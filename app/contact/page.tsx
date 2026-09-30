@@ -2,9 +2,9 @@ import ContactForm from "./contact-form";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact | Ayush Sharma",
   description:
-    "Get in touch with Ayush Sharma for internships, projects, and full-time opportunities through the direct contact form.",
+    "Get in touch with Ayush Sharma for Summer 2027 SDE internships, full stack web development, and AI engineering collaborations.",
   alternates: {
     canonical: "/contact",
   },

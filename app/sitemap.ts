@@ -1,13 +1,14 @@
 import type { MetadataRoute } from "next";
 import { siteUrl } from "./seo-config";
+import { projects } from "@/lib/content/projects";
+import { serviceData } from "@/lib/content/services";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = [
     "",
     "/contact",
-    "/projects/boringtools",
-    "/projects/ai-resume-analyzer",
-    "/projects/ai-code-reviewer",
+    ...projects.flatMap((project) => project.links.internal ? [project.links.internal] : []),
+    ...Object.keys(serviceData).map((slug) => `/services/${slug}`),
   ];
 
   return routes.map((route) => ({

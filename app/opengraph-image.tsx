@@ -37,16 +37,16 @@ export default function OpenGraphImage() {
         <div style={{ display: "flex", flexDirection: "column", gap: 18 }}>
           <div
             style={{
-              fontSize: 74,
-              lineHeight: 1.05,
+              fontSize: 70,
+              lineHeight: 1.08,
               fontWeight: 700,
               maxWidth: 980,
             }}
           >
-            Full Stack Developer Portfolio
+            Full Stack Developer & AI Builder
           </div>
-          <div style={{ fontSize: 34, color: "#e5e7eb", maxWidth: 980 }}>
-            MERN and AI-integrated web apps, case studies, and contact details.
+          <div style={{ fontSize: 32, color: "#e5e7eb", maxWidth: 980 }}>
+            Creator of BoringTools (101 micro-utilities). Next.js, TypeScript, Python, FastAPI & WASM.
           </div>
         </div>
       </div>
